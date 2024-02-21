@@ -1,0 +1,147 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  color: green;
+}
+
+.bar {
+  padding: 0;
+  background-color:darkgreen;
+  color:white;
+  position: fixed;
+  width: 100%;
+}
+
+.bar a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.bar a:hover {
+  font-weight: bold;
+}
+
+.bar img {
+  padding-right: 1em;
+}
+
+ul {
+   padding: 1em 0 1em;
+   display:flex;
+}
+
+li {
+  color: white;
+  margin: 0 2em 0 2em;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.intro {
+  background: url('./IMG_20201031_161059.jpg') center 100%;
+  padding: 5rem 0 13rem 0;
+}
+
+h1 {
+  color:whitesmoke;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: rgba(1, 50, 32, 0.8);
+  text-align: center;
+}
+
+.summary,
+.testimonial,
+.photos,
+.meetup {
+  margin: 4em auto;
+}
+
+.summary {
+  padding: 0 1rem 0 2rem;
+}
+
+.summary p {
+  color: black;
+  line-height: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.testimonial {
+  color: yellow;
+  background-image: url('./FB_IMG_1669818066738.jpg');
+  padding: 10rem 0 10rem 0;
+}
+
+.testimonial h1 {
+  color: yellow;
+}
+
+.testimonial p {
+  margin-left: 2rem;
+  color: yellow;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+.meetup {
+  margin-bottom: 2rem;
+  background-image: url('./10365438_774217099265552_7604116087312838459_o.jpg');
+  padding: 10rem 0 25rem 0;
+}
+
+@media only screen and (max-width: 1048px) {
+
+  .photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .intro h1 {
+    margin-top: 2rem;
+  }
+
+  .intro {
+    max-height: 200px;
+  }
+
+  .photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .testimonial h1 {
+    font-size: 2rem;
+  }
+
+  .photos img {
+    width: 100%;
+  }
+}
