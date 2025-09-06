@@ -264,7 +264,7 @@ fill: white;
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;    /* Centers vertically */
-  background-image: url(resources/IMG_20240113_093047_136.jpg);
+  background-image: url(../resources/IMG_20240113_093047_136.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   height: 600px;
