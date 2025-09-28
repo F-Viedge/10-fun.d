@@ -260,7 +260,11 @@ fill: white;
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;    /* Centers vertically */
+<<<<<<< HEAD
   background-image: url(./drawing-1.svg);
+=======
+  background-image: url(../resources/drawing-1.png);
+>>>>>>> 410f876ffbeae573c54cd522ef05f1d604902ca7
   background-repeat: no-repeat;
   background-position: center center;
   height: 500px;
