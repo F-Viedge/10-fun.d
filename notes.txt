@@ -1,3 +1,6 @@
+
+
+
 notes:
 
 layout
@@ -9,6 +12,19 @@ https://www.youtube.com/watch?v=m4NUID4kDyo
 socials
 https://www.youtube.com/watch?v=UQKWc2r_41U
 
+e-commerce JS
+https://www.youtube.com/watch?v=b3Gqq_k-g24&t=4561s
 
 
- 
+
+
+url(../resources/image.png) correct notation for linking to background images.
+
+ https://github.com/F-Viedge/10-fun.d/blob/c84a1419ce8613278c9c175cd5d47e1fdb24fee2/resources/drawing-1.png
+
+
+
+Link for testing...
+
+f-viedge.github.io/10-fun.d/
+
